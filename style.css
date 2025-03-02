@@ -1,404 +1,115 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial,  sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-}
-.Adv{
-    background-image: url(https://lof8sc.yourbrand.studio/files/dynamicContent/sites/lof8sc/images/en/webpage_13/m5p6d1a5/element_252/rwdMode_1/2400x700/main.webp);
-width: 100%;
-height: 600px;
-position: relative;
-}
-.Adv Img{
-    width:150px;
-    position: absolute;
-    top:10px;
-    margin-left: 50px;
-}
-.Hero{
-display: flex;
-justify-content: end;
-gap: 10px;
-width: 95%;
-border: 30px;
-position: relative;
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body {
+    background-color: hsl(218, 22%, 67%);
 
 }
-.Hero a{
-    border-radius: 20px;
-    padding: 5px;
-    width: 90px; 
-   color: black;
-   text-decoration: none;
-   /* border: 20px; */
-    
-}
-nav{
-    display: flex;
-    gap: 30px;
-    margin-top: 30px;
-    justify-content: end;
-    
-}
 
-a{
-   text-decoration: none;
-   
-}
-.Hero Img{
-    width: 40px;
-    padding-bottom: 30px;
-    /* margin-bottom: 60px; */
-    margin-left: 50px;
-    margin-top: 30px;
-    display: flex;
-    /* flex-direction: column; */
-   
-   }    
-.Hero-parent{
-    text-align: center;
-    margin-top: 300px;
-    color: white;
-    position: relative;
-    
-    /* display: flex;
-    justify-content: center; */
-}
-h1{
-    line-height: 30px;
-    font-size: 50px;
-    margin-top: 40px;
-}
-.Hero-parent a{
-    margin-right: 250px;
-    position: absolute;
-    top:150px;
-    right: 300px;
-    width: 200px;
-    padding: 15px;
-    font-size:18px;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 30px;
-    height: 50%;
-    color: black;
+.big-box {
     background-color: white;
+    width: 45%;
+    /* height: 74vh; */
+    /* padding: 10px; */
+    margin: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    font-weight: 400;
+
+}
+
+.Com-1 {
+    margin: 30px;
+    padding: 24px;
+
     
-   
-}
-h3{
-    font-style:italic ;
-    font-size: 30px;
-    margin-bottom: 50px;
-}
-.power{
-    text-wrap: 50px;
-}
-.power h1{
-color:  rgb(54, 51, 51);
-    text-align:center ;
-    width:90%;
-   line-height: 40px;
-   font-size: 34px;
-  margin: 50px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.power h2{
-    color: rgb(54, 51, 51);
-    text-align:center ;
-    width:90%;
-   line-height: 20px;
-   font-size: 34px;
-  margin: 50px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.Cu{
-text-align: center;
-width:700px;
-margin-left: 280px;
-margin-bottom: 30px;
-color: rgb(54, 52, 52);
-}
-.power a{
-font-style: italic;
-}
-.power p{
-    text-align: center;
-    margin-right: 30px;
-    font-style: italic;
-    color:rgb(54, 51, 51) ;
-}
-.power a{
-    text-decoration: none;
-    color:rgb(98, 189, 98);
 
 }
-.Man{
-    display: flex;
-    gap: 200px;
-    width: 100%;
 
+.Com-1 h1 {
+    font-size: 24px;
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    font-family:"Young Serif", serif ;
 }
-.Man img{
-    display: flex;
-    width: 500px;
-    margin-left: 100px;
-    margin-top: 90px;
-    flex-direction: column;
-    justify-content: center;
-
-}
-.Rock{
-    margin-top: 50px;
-    padding-right: 50px;
-    flex-direction: column;
-    margin-right: 200px;
-    text-align: center;
-    padding-right: 90px;
-    margin-right: 50px;
-    /* /* display: flex;
-    justify-content: end; */
-    /* text-wrap: 20px; */ 
-}
-.Rock h4{
-    color:rgb(98, 145, 98);
-width: 195px;
-height:30px;
-margin-top: 100px;
-text-align: center;
-margin-left: 100px;
-margin-right: 200px;
-font-size: 20px;
-font-family:Georgia, 'Times New Roman', Times, serif;
-}
-.Rock p{
-    width: 400px;
-    margin-bottom: 30px;
-    text-align: center;
-    font-size: 21px;
-    margin-right: 5px;
-    padding-right: 10px;
-    color: rgb(54, 52, 52);
-    
-}
-.Rock a{
-    margin-right: 100px;
-    border-style:double;
-    width: 250px;
-    padding-inline: 15px;
-    font-size:18px;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 30px;
-    color: white;
-    box-sizing: border-box;
-    background-color: rgb(98, 145, 98);
-}
-
-.Ext{
-    position:relative;
-    /* margin-bottom: 1px; */
-    width: 100%;
-   height: auto;
-}
-.of{
-margin-top: 200px;
-
-}
-.Ext img{
-
-display: flex;
-align-items: center;
-justify-content: center;
-    margin-top:0px;
-    margin-left: 700px;
-    position: absolute;
-    width: 500px;
-    margin-bottom: 10px;
-    height: 350px;
-    margin-right: 100px;
-   
-}
-.Ext h4{
-    width: 210px;
-    margin-top: 200px;
-    height:20px;
-    font-family:Georgia, 'Times New Roman', Times, serif; 
-    color:rgb(98, 145, 98);
-    text-align: center;
-    margin-left: 200px;
-    font-size: 20px;
-}
-.Ext p{
-    text-align: center;
-    width: 390px;
-    font-size: 21px;
-    margin-left: 100px;
-    margin-top: 20px;
-}
-.Ext a{
-    
-    margin-left: 250px;
-    border-style:double;
-    width: 350px;
-    padding-inline: 20px;
-    font-size:18px;
-    text-align: center;
-    line-height: 50px;
-    border-radius: 30px;
-    color: white;
-    box-sizing: border-box;
-    background-color: rgb(98, 145, 98);
-}
-
-.content h1{
-    margin-top:300px; 
-    text-align: center;
-    margin-bottom: 50px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 40px;
-    font-size: 34px;
-}
-.content{
-    width: 80%;
-    margin-left: 10%;
-    
-}
-.grid-container {
-    display: grid;
-    grid-template-columns: (1, 1fr);
-    grid-template-rows: (3, 1fr);
-    height: 100vh;
-    gap: 20px;
-   
-}
-.grid-container>div {
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-}
-.grid-container>div:nth-child(1){
-    grid-row: 1/6;
-    width:500px ;
-    background-image: url(https://lof8sc.yourbrand.studio/files/dynamicContent/sites/lof8sc/images/en/webpage_13/m5p6d1a5/element_265/rwdMode_1/491x734/Gallery_1.webp);
-}
-.grid-container>div:nth-child(2){
-    grid-column: 2/5;
-  height: 400px;
-  width: 600px;
-          background-image: url(https://lof8sc.yourbrand.studio/files/dynamicContent/sites/lof8sc/images/en/webpage_13/m5p6d1a5/element_266/rwdMode_1/689x379/Gallery_2.webp);
-}
-.grid-container>div:nth-child(3){
-    grid-row: 2/6;
-    width: 300px;
-    height: 300px;
-    background-image: url(https://lof8sc.yourbrand.studio/files/dynamicContent/sites/lof8sc/images/en/webpage_13/m5p6d1a5/element_267/rwdMode_1/334x334/Gallery_3.webp);
-}
-.grid-container>div:nth-child(4){
-    grid-row: 2/6;
-   width: 280px;
-   height: 300px;
-   /* margin-left: 20px; */
-    background-image: url(https://lof8sc.yourbrand.studio/files/dynamicContent/sites/lof8sc/images/en/webpage_13/m5p6d1a5/element_268/rwdMode_1/333x333/Gallery_4.webp);
-}
-.text{
-    color: white;
-    text-align: center;
-    visibility: hidden;
-    height:100%;
-    width:100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-image:linear-gradient(to bottom, rgba(186, 189, 23, 0.52),rgba(56, 56, 56, 0.73));
-}
-.grid-container>div:hover .text{
-    visibility: visible;
-}
-.grid-container p{
-    font-size: 30px;
-    font-style: italic;
-}
-.Contact{
-    display: flex;
-    align-items: center;
-    line-height: 380px;
-    justify-content: center;
-    position: relative;
-
-}
-.Contact p{
-   font-size: 26px;
-font-family: "Lora 700";
-font-weight: 700px;
-}
-.Contact a{
-    /* display: flex; */
-    /* align-items: center; */
-margin-left: 100px;
-border-style:double;
-width: 250px;
-padding-inline: 15px;
-font-size:18px;
-text-align: center;
-line-height: 40px;
-border-radius: 30px;
-color: white;
-box-sizing: border-box;
-background-color: rgb(98, 145, 98);
-}
-.logo{
-
-    display: flex;
-    justify-content: center;
-    opacity: 1;
-    background-color: rgb(78, 94, 102);
-    background-size: auto;
-    /* background-attachment: scroll;
-    background-repeat: repeat;
-    background-position: left top; */
-    border-radius: 0.0px;
-    border: none;
-    height: 180px;
-    box-shadow: none;
-    width: 100%;
-    position: relative;
-    gap: 20px;
-}
-.fa-brands{
-    font-size: 50px;
-    margin-top: 80px;
-    border-radius: 20px;
-}
-.Co{
-    position: relative;
-    bottom: 150px;
-}
-.Co p{
-
+.Com-1 h2{
+    color:  hsl(71, 73%, 54%);
+    margin-block: 15px;
     font-size: 18px;
-    font-family: "Roboto 700 normal";
-    line-height: 18px;
-    text-align: center;
+}
+.Com-1 p{
+    color:hsl(218, 22%, 67%);
+    font-size: 14px;
+    width: 80%;
+    line-height: 20px;
+    margin: 0px;
+}
+.Com-2{
+    display: flex;
+   color: white;
+}
+.sub{
+    background-color:hsl(179, 51%, 42%) ;
+    flex-basis: 50%;
+    padding: 25px;
+    border-bottom: 10px;
+    height: 50%;
+}
+.sub button{
+    background-color: hsl(71, 73%, 54%);
+    padding: 10px;
+    width: 210px;
     color: white;
-}
-@media screen and (max-width: 475px){
-#sidebar {width: 90%; float: top;}
-  #main {margin-left: 250px;}
-}
-@media screen and(max-width:765px){
+    margin-left: 10%;
+    font-family: 'Karla';
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 
 }
+.sub h3{
+    color: white;
+    margin-left: 10%;
+}
+.price{
+    color: white;
+    /* margin-right: 20px; */
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    /* margin-right: 10px;
+    margin-bottom: 20px; */
+}
+/* styling the dollar sign */
+.Dollar{
+    font-size: 28px;
+}
+.Per{
+    margin-left: 10px;
+    font-size: 12px;
+    opacity:0.5;
+    /* margin-top: 35px; */
+}
+.Full{
+    opacity: 0.7;
+}
+/* styling the p for full access */
+p{
+    color: white;
+    margin-left: 10%;
+}
 
-/* .Contact button{
-padding: 10px;
-margin-left: 50px;
-width: 10px;
-line-height: 50px;
-position: absolute;
-} */
+
+.why{
+    background-color:hsl(179, 49%, 64%) ;
+    flex-basis: 50%;
+    padding: 25px;
+}
+.why h3{
+    color: white;
+    margin-left: 10%;
+}
+.why p{
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 0.7;
+    width: 75%;
+}
